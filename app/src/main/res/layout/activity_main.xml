@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nanosys.wegdan.mathgame.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math Game"
+        android:textColor="#1c6f9f"
+        android:textSize="35sp"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"/>
+
+    <ImageView
+        android:layout_height="128dp"
+        android:src="@drawable/math"
+        android:layout_width="128dp"
+        android:layout_marginBottom="20dp" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_marginBottom="20dp"
+        android:onClick="genrateQuestion" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
